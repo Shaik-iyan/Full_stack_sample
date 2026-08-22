@@ -7,6 +7,9 @@ Today I’m starting my 60-day Full-Stack Development learning journey.
 I created this day-by-day schedule to give myself a clear structure instead of randomly jumping between technologies. The plan is to study around 3–5 hours each day, practice what I learn, build projects, and update my GitHub.
 
 📸 I’ve attached my complete 60-day schedule in the images.
+<img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/3b71c3c1-e89f-4e84-8791-86b816c70904" />
+<img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/05c5305a-f94b-4770-a089-116c29b2577c" />
+
 
 The roadmap covers:
 
