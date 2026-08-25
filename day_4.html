@@ -1,0 +1,59 @@
+<html>
+    <head><title>Form</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="day_4.css">
+    </head>
+    
+   
+    <body>
+        <header>
+             <nav class="nav-bar">
+                 <div class="head_">
+                     <a href="#" id="menu">Menu</a>
+                     <a href="#" id="pages">PAGES</a>
+                     <a href="#" id="priv">Privacy</a>
+                 </div>
+             </nav>
+        </header>
+       <h1 class="head_line">Product Form with Registration</h1>
+   
+    <main class="main_">
+        <form id="form">
+            <fieldset>
+              <legend>Form</legend>
+              <label for="name">First_name:</label>
+              <input type="text" id="name" name="First_name" placeholder="Enter your name" required>
+              <label for="last_name">Last Name:</label>
+              <input type="text" id="last_name" name="Last_name" placeholder="enter your last name"><br>
+              <label for="email_">email :</label>
+              <input type="email" id="email_" name="email"placeholder="ex:exe@gmail.com" required><br>
+              <label for="phone_no">Phone_no : </label>
+              <input type="tel" id="phone_no" name="phone_no" pattern="[0-9]{10}" placeholder="0000000000" required><br>
+                <label>
+                   <input type="radio" name="gender" value="male" class="gender">
+                    Male:
+                </label>
+              <label>
+                  <input type="radio" name="gender" value="female" class="gender">Female
+              </label><br>
+              <label for="products">Products:</label>
+              <div class="selection">
+                  <select id="products" name="products" required>
+                      <option value="">select a product</option>
+                      <option value="pen">Pen</option>
+                      <option value="pencil">pencil</option>
+                      <option value="eraser">Eraser</option>
+                      <option value="book">Book</option>
+                  </select><br>
+            </div>
+              <label for="address">Adddress:</label><br>
+            
+             <textarea id="address" name="address" rows="3" cols="3" maxlength="200"placeholder="enter your address"></textarea><br>
+            <button type="submit" id="submit_">Register</button>
+        </fieldset>
+        </form>
+    </main>
+
+    </body>
+</html>
